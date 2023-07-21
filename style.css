@@ -1,0 +1,39 @@
+body {
+  font-family: calibri;
+  color: blue;
+  font-size: 50px;
+  background:   url(https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/main_image_star-forming_region_carina_nircam_final-1280.jpg);
+  background-size: cover;
+}
+#button{
+  font-size: 30px !important;
+  border-color: transparent;
+  border-radius: 75px;
+  backdrop-filter: blur(4px);
+  padding: 1vh;
+  transition: 0.3s;
+		margin-left: 90%;
+		margin-top: 90vh;
+		
+}
+
+.btn-primary{
+  background-color: rgba(100,150,255, 0.5);
+}
+.btn-primary:hover {
+  background-color: rgba(80,130,235,0.4);
+}
+
+.btn-turq{
+  background-color: rgba(100,220,255, 0.5);
+}
+.btn-turq:hover {
+  background-color: rgba(80,200,235, 0.4);
+}
+
+.btn-yellow{
+  background-color: rgba(255,200,100, 0.5);
+}
+.btn-yellow:hover {
+  background-color: rgba(235,180,80,0.4);
+}
